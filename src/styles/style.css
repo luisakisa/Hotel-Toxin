@@ -1,0 +1,96 @@
+@import url("../fonts/fonts.css");
+body {
+  background-color: white;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
+html {
+  margin-left: 1rem;
+  line-height: 17.07px;
+  font-weight: 400;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 144rem;
+  margin: 0 auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.nav {
+  line-height: 17.07px;
+  font-weight: 400;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.nav-item {
+  margin: 0 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.control-item {
+  margin-left: 2rem;
+}
+
+.control-button {
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 2.2rem;
+  border: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.control-button_login {
+  color: #bc9cff;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-color: #8ba4f9;
+}
+
+.control-button_signup {
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8ba4f9));
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+}
+
+.control-link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,80 @@
+@import url("../fonts/fonts.css");
+
+body {
+  background-color: white;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+html {
+  margin-left: 1rem;
+  line-height: 17.07px;
+  font-weight: 400;
+}
+.header {
+  
+  display: flex;
+  justify-content: space-between;
+  max-width: 144rem;
+  margin: 0 auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  align-items: center;
+  color: rgba(31, 32, 65, 0.5);
+}
+.nav {
+  line-height: 17.07px;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+  &-item {
+    margin: 0 1.5rem;
+  }
+  &-link {
+    text-decoration: none;
+  }
+}
+.control {
+ 
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  &-item {
+    margin-left: 2rem;
+  }
+  &-button {
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 2.2rem;
+    border:0;
+
+    white-space: nowrap;
+    position: relative;
+   
+    
+  
+    &_login {
+    
+      color: #bc9cff;
+      padding-top: 9px;
+      padding-bottom: 9px;
+    
+      border-color: #8ba4f9;
+   
+    }
+    &_signup {
+      color: #ffffff;
+      width: 100%;
+      padding: 10px 0;
+      background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+      border-radius: 22px;
+    }
+  }
+
+  &-link {
+    text-decoration: none;
+  }
+}
