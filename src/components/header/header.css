@@ -1,0 +1,127 @@
+@import url("../../fonts/fonts.css");
+body {
+  background-color: white;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 140px;
+  padding: 0px 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  list-style: none;
+}
+
+.nav-item {
+  -webkit-transform: scaleX(1.13);
+          transform: scaleX(1.13);
+  margin-left: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #1f204180;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.material-icons {
+  vertical-align: top;
+  -webkit-transform: scaleX(0.85);
+          transform: scaleX(0.85);
+}
+
+.control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  -webkit-transform: scaleX(1.05);
+          transform: scaleX(1.05);
+}
+
+.control-button {
+  margin-left: 16px;
+  font-weight: bold;
+  font-size: 12px;
+  border: 0;
+  border-radius: 22px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: relative;
+}
+
+.control-button_login {
+  color: #bc9cff;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border-color: #8ba4f9;
+  background: #ffffff;
+}
+
+.control-button_login::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8ba4f9));
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+  z-index: -1;
+}
+
+.control-button_signup {
+  color: #ffffff;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 19px;
+  padding-right: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8ba4f9));
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+}
+
+.control-link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=header.css.map */

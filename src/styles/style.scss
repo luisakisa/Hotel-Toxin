@@ -1,80 +1,44 @@
-@import url("../fonts/fonts.css");
-
+//reset css
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  background-color: white;
-  font-family: "Montserrat", "Arial", sans-serif;
+	line-height: 1;
 }
-html {
-  margin-left: 1rem;
-  line-height: 17.07px;
-  font-weight: 400;
+ol, ul {
+	list-style: none;
 }
-.header {
-  
-  display: flex;
-  justify-content: space-between;
-  max-width: 144rem;
-  margin: 0 auto;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  align-items: center;
-  color: rgba(31, 32, 65, 0.5);
+blockquote, q {
+	quotes: none;
 }
-.nav {
-  line-height: 17.07px;
-  font-weight: 400;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0.5rem;
-  &-item {
-    margin: 0 1.5rem;
-  }
-  &-link {
-    text-decoration: none;
-  }
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-.control {
- 
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding-left: 0;
-  &-item {
-    margin-left: 2rem;
-  }
-  &-button {
-    font-weight: bold;
-    font-size: 12px;
-    border-radius: 2.2rem;
-    border:0;
-
-    white-space: nowrap;
-    position: relative;
-   
-    
-  
-    &_login {
-    
-      color: #bc9cff;
-      padding-top: 9px;
-      padding-bottom: 9px;
-    
-      border-color: #8ba4f9;
-   
-    }
-    &_signup {
-      color: #ffffff;
-      width: 100%;
-      padding: 10px 0;
-      background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
-      border-radius: 22px;
-    }
-  }
-
-  &-link {
-    text-decoration: none;
-  }
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
