@@ -1,10 +1,7 @@
 @import url("../../fonts/fonts.css");
-body {
+.header {
   background-color: white;
   font-family: "Montserrat", "Arial", sans-serif;
-}
-
-.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

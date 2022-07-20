@@ -1,0 +1,62 @@
+@import url("../../fonts/fonts.css");
+footer {
+  background-color: white;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 140px;
+  padding: 0px 55px;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.footer-list {
+  -webkit-transform: scaleX(1.153);
+          transform: scaleX(1.153);
+  font-size: 14px;
+}
+
+.footer-list_item {
+  margin-bottom: 24px;
+  -webkit-transform: translate(0, 7px);
+          transform: translate(0, 7px);
+  max-width: 150px;
+}
+
+.footer-list_title {
+  color: #1F2041;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.footer-list_link {
+  text-decoration: none;
+  color: #1f204180;
+}
+
+.footer-list_logo {
+  margin-bottom: 15px;
+  -webkit-transform: scaleX(0.859);
+          transform: scaleX(0.859);
+}
+
+.footer-list_underlogo {
+  line-height: 24px;
+  padding-left: 7px;
+  max-width: 240px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.footer-list_sub {
+  line-height: 24px;
+  max-width: 260px;
+  color: rgba(31, 32, 65, 0.75);
+}
+/*# sourceMappingURL=footer.css.map */

@@ -57,12 +57,9 @@ table {
   border-spacing: 0;
 }
 /*# sourceMappingURL=style.css.map */@import url("../../fonts/fonts.css");
-body {
+.header {
   background-color: white;
   font-family: "Montserrat", "Arial", sans-serif;
-}
-
-.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,7 +179,82 @@ nav {
 .control-link {
   text-decoration: none;
 }
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=header.css.map */.input-field {
+  height: 38px;
+  width: 252px;
+  color: rgba(31, 32, 65, 0.25);
+  font-size: 14px;
+  border-color: rgba(31, 33, 65, 0.25);
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.input-field:focus {
+  border-width: 1px;
+  border-color: rgba(31, 32, 65, 0.5);
+}
+/*# sourceMappingURL=field.css.map */@import url("../../fonts/fonts.css");
+footer {
+  background-color: white;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 140px;
+  padding: 0px 55px;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.footer-list {
+  -webkit-transform: scaleX(1.153);
+          transform: scaleX(1.153);
+  font-size: 14px;
+}
+
+.footer-list_item {
+  margin-bottom: 24px;
+  -webkit-transform: translate(0, 7px);
+          transform: translate(0, 7px);
+  max-width: 150px;
+}
+
+.footer-list_title {
+  color: #1F2041;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.footer-list_link {
+  text-decoration: none;
+  color: #1f204180;
+}
+
+.footer-list_logo {
+  margin-bottom: 15px;
+  -webkit-transform: scaleX(0.859);
+          transform: scaleX(0.859);
+}
+
+.footer-list_underlogo {
+  line-height: 24px;
+  padding-left: 7px;
+  max-width: 240px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.footer-list_sub {
+  line-height: 24px;
+  max-width: 260px;
+  color: rgba(31, 32, 65, 0.75);
+}
+/*# sourceMappingURL=footer.css.map */
     </style>
     <script src=""> </script>
   </head>
@@ -207,9 +279,46 @@ nav {
         </nav>
       </div>
     </header>
+    <input class="input-field" type="text" name="field">
     <footer> 
       <div class="footer"> 
-        <h1>подвал сайта</h1>
+        <ul class="footer-list"> <a href="#"><img class="footer-list_logo" src="images/logo.svg" alt="logo"></a>
+          <p class="footer-list_underlogo">Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»</p>
+        </ul>
+        <ul class="footer-list"> 
+          <li class="footer-list_item">
+            <p class="footer-list_title">Навигация</p>
+          </li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">О нас </a></li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">Новости</a></li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">Служба поддержки</a></li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">Услуги</a></li>
+        </ul>
+        <ul class="footer-list"> 
+          <li class="footer-list_item">
+            <p class="footer-list_title">О нас</p>
+          </li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">О сервисе</a></li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">Наша команда</a></li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">Вакансии</a></li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">Инвесторы</a></li>
+        </ul>
+        <ul class="footer-list"> 
+          <li class="footer-list_item">
+            <p class="footer-list_title">Служба поддержки</p>
+          </li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">Соглашения</a></li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">Сообщества</a></li>
+          <li class="footer-list_item"><a class="footer-list_link" href="">Связь с нами</a></li>
+        </ul>
+        <ul class="footer-list"> 
+          <li class="footer-list_item">
+            <p class="footer-list_title">Подписка</p>
+          </li>
+          <li class="footer-list_item">
+            <p class="footer-list_sub">Получайте специальные предложения и новости сервиса</p>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>

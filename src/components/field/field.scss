@@ -1,0 +1,13 @@
+.input-field{
+    height: 38px;
+    width: 252px;
+    color: rgba(31, 32, 65, 0.25);
+    font-size: 14px;
+    border-color:hsla(238, 35%, 19%, 0.25);
+    border-radius: 4px;
+    border-width: 1px;
+}
+.input-field:focus{
+    border-width: 1px;
+    border-color:rgba(31, 32, 65, 0.5);
+}
