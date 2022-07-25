@@ -107,6 +107,10 @@ nav {
   z-index: -1;
 }
 
+.control-button_login:hover::before {
+  opacity: 0.5;
+}
+
 .control-button_signup {
   color: #ffffff;
   padding-top: 9px;
@@ -116,6 +120,10 @@ nav {
   background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8ba4f9));
   background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
   border-radius: 22px;
+}
+
+.control-button_signup:hover {
+  opacity: 0.5;
 }
 
 .control-link {

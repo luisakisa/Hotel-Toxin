@@ -26,7 +26,6 @@ footer {
   margin-bottom: 24px;
   -webkit-transform: translate(0, 7px);
           transform: translate(0, 7px);
-  max-width: 150px;
 }
 
 .footer-list_title {
@@ -56,7 +55,7 @@ footer {
 
 .footer-list_sub {
   line-height: 24px;
-  max-width: 260px;
+  max-width: 240px;
   color: rgba(31, 32, 65, 0.75);
 }
 /*# sourceMappingURL=footer.css.map */

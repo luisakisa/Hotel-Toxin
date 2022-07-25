@@ -165,6 +165,10 @@ nav {
   z-index: -1;
 }
 
+.control-button_login:hover::before {
+  opacity: 0.5;
+}
+
 .control-button_signup {
   color: #ffffff;
   padding-top: 9px;
@@ -176,12 +180,17 @@ nav {
   border-radius: 22px;
 }
 
+.control-button_signup:hover {
+  opacity: 0.5;
+}
+
 .control-link {
   text-decoration: none;
 }
 /*# sourceMappingURL=header.css.map */.input-field {
-  height: 38px;
-  width: 252px;
+  height: 39px;
+  max-width: 210px;
+  width: 100%;
   color: rgba(31, 32, 65, 0.25);
   font-size: 14px;
   border-color: rgba(31, 33, 65, 0.25);
@@ -190,8 +199,15 @@ nav {
 }
 
 .input-field:focus {
+  outline: 1px rgba(31, 33, 65, 0.5);
   border-width: 1px;
-  border-color: rgba(31, 32, 65, 0.5);
+  border-color: rgba(31, 33, 65, 0.5);
+}
+
+input[type="text"] {
+  padding-left: 12px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
 }
 /*# sourceMappingURL=field.css.map */@import url("../../fonts/fonts.css");
 footer {
@@ -221,7 +237,6 @@ footer {
   margin-bottom: 24px;
   -webkit-transform: translate(0, 7px);
           transform: translate(0, 7px);
-  max-width: 150px;
 }
 
 .footer-list_title {
@@ -251,7 +266,7 @@ footer {
 
 .footer-list_sub {
   line-height: 24px;
-  max-width: 260px;
+  max-width: 240px;
   color: rgba(31, 32, 65, 0.75);
 }
 /*# sourceMappingURL=footer.css.map */
@@ -279,7 +294,8 @@ footer {
         </nav>
       </div>
     </header>
-    <input class="input-field" type="text" name="field">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <footer> 
       <div class="footer"> 
         <ul class="footer-list"> <a href="#"><img class="footer-list_logo" src="images/logo.svg" alt="logo"></a>
@@ -318,6 +334,7 @@ footer {
           <li class="footer-list_item">
             <p class="footer-list_sub">Получайте специальные предложения и новости сервиса</p>
           </li>
+              <input class="input-field" type="text" value="Email" style="../../icons/arrow_forward.svg">
         </ul>
       </div>
     </footer>
