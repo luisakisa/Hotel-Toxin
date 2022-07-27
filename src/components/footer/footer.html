@@ -1,5 +1,48 @@
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<style>.input-field {
+  height: 39px;
+  max-width: 210px;
+  width: 100%;
+  color: rgba(31, 32, 65, 0.25);
+  font-size: 14px;
+  border-color: rgba(31, 33, 65, 0.25);
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.input-field:focus {
+  outline: 1px rgba(31, 33, 65, 0.5);
+  border-width: 1px;
+  border-color: rgba(31, 33, 65, 0.5);
+}
+
+input[type="text"] {
+  padding-left: 12px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+}
+
+.input-field::after {
+  content: "";
+  background-image: url("../../icons/arrow-forward.svg");
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  top: 11px;
+  right: 10px;
+}
+
+.field__arrow {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  fill: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+/*# sourceMappingURL=field.css.map */
+</style>
 <footer> 
   <div class="footer"> 
     <ul class="footer-list"> <a href="#"><img class="footer-list_logo" src="images/logo.svg" alt="logo"/></a>
@@ -38,7 +81,16 @@
       <li class="footer-list_item">
         <p class="footer-list_sub">Получайте специальные предложения и новости сервиса</p>
       </li>
-      <input class="input-field" type="text" value="Email" style="../../icons/arrow_forward.svg"/>
+      <input class="input-field" type="text" value="Email"/>
+    </ul>
+  </div>
+  <div class="footer-line"></div>
+  <div class="footer-bottom">
+    <p class="footer-bottom__rules">Copyright © 2018 Toxin отель. Все права защищены.</p>
+    <ul class="footer-bottom__icons"> 
+      <li class="footer-bottom__icon"> <a href="#"></a><img class="footer-list_icon" src="icons/twitter.svg" alt="twitter"/></li>
+      <li class="footer-bottom__icon"> <a href="#"></a><img class="footer-list_icon" src="icons/facebook.svg" alt="facebook"/></li>
+      <li class="footer-bottom__icon"> <a href="#"></a><img class="footer-list_icon" src="icons/instagram.svg" alt="instagram"/></li>
     </ul>
   </div>
 </footer>

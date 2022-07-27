@@ -21,5 +21,23 @@ input[type="text"]{
     padding-left: 12px;
     font-family: "Montserrat", "Arial", sans-serif;
     font-size: 14px;
+    
 }
-
+.input-field::after{
+    content: "";
+    background-image: url("../../icons/arrow-forward.svg");
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+		background-position: center center;
+		top: 11px;
+    right: 10px;
+}
+.field__arrow {
+    position: absolute;
+    top: 14px;
+		right: 14px;
+		fill: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	}

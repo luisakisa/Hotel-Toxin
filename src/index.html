@@ -59,7 +59,7 @@ table {
 /*# sourceMappingURL=style.css.map */@import url("../../fonts/fonts.css");
 .header {
   background-color: white;
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,7 +131,117 @@ nav {
           transform: scaleX(1.05);
 }
 
-.control-button {
+.control-link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=header.css.map */@import url("../../fonts/fonts.css");
+footer {
+  background-color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 140px;
+  padding: 0px 55px;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.footer-list {
+  -webkit-transform: scaleX(1.153);
+          transform: scaleX(1.153);
+  font-size: 14px;
+}
+
+.footer-list_item {
+  margin-bottom: 24px;
+  -webkit-transform: translate(0, 7px);
+          transform: translate(0, 7px);
+}
+
+.footer-list_title {
+  color: #1f2041;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.footer-list_link {
+  text-decoration: none;
+  color: #1f204180;
+}
+
+.footer-list_logo {
+  margin-bottom: 15px;
+  -webkit-transform: scaleX(0.859);
+          transform: scaleX(0.859);
+}
+
+.footer-list_underlogo {
+  line-height: 24px;
+  padding-left: 7px;
+  max-width: 240px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.footer-list_sub {
+  line-height: 24px;
+  max-width: 240px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.footer-line {
+  margin-top: 84px;
+  border-top: 1px solid;
+  border-color: rgba(31, 32, 65, 0.25);
+}
+
+.footer-bottom {
+  font-size: 14px;
+  color: rgba(31, 32, 65, 0.75);
+  margin: 0px 140px;
+  padding: 0px 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-bottom__rules {
+  padding-left: 31px;
+  -webkit-transform: translate(0px, 7px);
+          transform: translate(0px, 7px);
+  padding-top: 29.5px;
+  -webkit-transform: scaleX(1.107);
+          transform: scaleX(1.107);
+}
+
+.footer-bottom__icons {
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-bottom__icon {
+  padding-left: 22px;
+}
+/*# sourceMappingURL=footer.css.map */
+    </style>
+    <script src=""> </script>
+  </head>
+  <body> 
+    <style>.control-button {
   margin-left: 16px;
   font-weight: bold;
   font-size: 12px;
@@ -140,6 +250,7 @@ nav {
   text-transform: uppercase;
   white-space: nowrap;
   position: relative;
+  cursor: pointer;
 }
 
 .control-button_login {
@@ -171,8 +282,8 @@ nav {
 
 .control-button_signup {
   color: #ffffff;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 19px;
   padding-right: 20px;
   background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8ba4f9));
@@ -183,11 +294,110 @@ nav {
 .control-button_signup:hover {
   opacity: 0.5;
 }
+/*# sourceMappingURL=button.css.map */
+    </style>
+    <style>
+       @import url("../../fonts/fonts.css");
+.header {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 140px;
+  padding: 0px 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  list-style: none;
+}
+
+.nav-item {
+  -webkit-transform: scaleX(1.13);
+          transform: scaleX(1.13);
+  margin-left: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #1f204180;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.material-icons {
+  vertical-align: top;
+  -webkit-transform: scaleX(0.85);
+          transform: scaleX(0.85);
+}
+
+.control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  -webkit-transform: scaleX(1.05);
+          transform: scaleX(1.05);
+}
 
 .control-link {
   text-decoration: none;
 }
-/*# sourceMappingURL=header.css.map */.input-field {
+/*# sourceMappingURL=header.css.map */
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <header>
+      <div class="header"> <a href="#"> <img src="images/logo.svg" alt="logo"></a>
+        <nav> 
+          <ul class="nav"> 
+            <li class="nav-item"><a class="nav-link" href="">О нас </a></li>
+            <li class="nav-item"><a class="nav-link" href="">Услуги<i class="material-icons">expand_more</i></a></li>
+            <li class="nav-item"><a class="nav-link" href="">Вакансии</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Новости</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Соглашения<i class="material-icons">expand_more </i></a></li>
+          </ul>
+          <ul class="control"> 
+            <li class="control-button">    
+                  <button class="control-button control-button_login">Войти</button>
+                  <button class="control-button control-button_signup">Зарегистрироваться</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <style>.input-field {
   height: 39px;
   max-width: 210px;
   width: 100%;
@@ -209,93 +419,28 @@ input[type="text"] {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
 }
-/*# sourceMappingURL=field.css.map */@import url("../../fonts/fonts.css");
-footer {
-  background-color: white;
-  font-family: "Montserrat", "Arial", sans-serif;
+
+.input-field::after {
+  content: "";
+  background-image: url("../../icons/arrow-forward.svg");
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  top: 11px;
+  right: 10px;
 }
 
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 15px 140px;
-  padding: 0px 55px;
-  color: rgba(31, 32, 65, 0.5);
+.field__arrow {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  fill: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 }
-
-.footer-list {
-  -webkit-transform: scaleX(1.153);
-          transform: scaleX(1.153);
-  font-size: 14px;
-}
-
-.footer-list_item {
-  margin-bottom: 24px;
-  -webkit-transform: translate(0, 7px);
-          transform: translate(0, 7px);
-}
-
-.footer-list_title {
-  color: #1F2041;
-  font-weight: bold;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.footer-list_link {
-  text-decoration: none;
-  color: #1f204180;
-}
-
-.footer-list_logo {
-  margin-bottom: 15px;
-  -webkit-transform: scaleX(0.859);
-          transform: scaleX(0.859);
-}
-
-.footer-list_underlogo {
-  line-height: 24px;
-  padding-left: 7px;
-  max-width: 240px;
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.footer-list_sub {
-  line-height: 24px;
-  max-width: 240px;
-  color: rgba(31, 32, 65, 0.75);
-}
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=field.css.map */
     </style>
-    <script src=""> </script>
-  </head>
-  <body> 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <header>
-      <div class="header"> <a href="#"> <img src="images/logo.svg" alt="logo"></a>
-        <nav> 
-          <ul class="nav"> 
-            <li class="nav-item"><a class="nav-link" href="">О нас </a></li>
-            <li class="nav-item"><a class="nav-link" href="">Услуги<i class="material-icons">expand_more</i></a></li>
-            <li class="nav-item"><a class="nav-link" href="">Вакансии</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Новости</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Соглашения<i class="material-icons">expand_more </i></a></li>
-          </ul>
-          <ul class="control"> 
-            <li class="control-button">    
-              <button class="control-button control-button_login">Войти</button>
-              <button class="control-button control-button_signup">Зарегистрироваться </button>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <footer> 
       <div class="footer"> 
         <ul class="footer-list"> <a href="#"><img class="footer-list_logo" src="images/logo.svg" alt="logo"></a>
@@ -334,7 +479,16 @@ footer {
           <li class="footer-list_item">
             <p class="footer-list_sub">Получайте специальные предложения и новости сервиса</p>
           </li>
-              <input class="input-field" type="text" value="Email" style="../../icons/arrow_forward.svg">
+              <input class="input-field" type="text" value="Email">
+        </ul>
+      </div>
+      <div class="footer-line"></div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__rules">Copyright © 2018 Toxin отель. Все права защищены.</p>
+        <ul class="footer-bottom__icons"> 
+          <li class="footer-bottom__icon"> <a href="#"></a><img class="footer-list_icon" src="icons/twitter.svg" alt="twitter"></li>
+          <li class="footer-bottom__icon"> <a href="#"></a><img class="footer-list_icon" src="icons/facebook.svg" alt="facebook"></li>
+          <li class="footer-bottom__icon"> <a href="#"></a><img class="footer-list_icon" src="icons/instagram.svg" alt="instagram"></li>
         </ul>
       </div>
     </footer>

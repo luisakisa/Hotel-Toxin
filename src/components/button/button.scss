@@ -1,0 +1,51 @@
+
+.control-button {
+    margin-left: 16px;
+    font-weight: bold;
+    font-size: 12px;
+    border: 0;
+    border-radius: 22px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    position: relative;
+    cursor: pointer;
+    &_login {
+        color: #bc9cff;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        border-color: #8ba4f9;
+        background: #ffffff;
+        &::before {
+            content: "";
+            position: absolute;
+            top: -2px;
+            bottom: -2px;
+            left: -2px;
+            right: -2px;
+            background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+            border-radius: 22px;
+            z-index: -1;
+            
+        }
+        &:hover::before{
+            opacity: 0.5;
+        }
+    }
+
+    
+    &_signup {
+        color: #ffffff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 19px;
+        padding-right: 20px;
+        background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+        border-radius: 22px; 
+        &:hover {
+        opacity: 0.5;
+    }
+    }
+   
+}

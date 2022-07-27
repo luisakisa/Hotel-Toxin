@@ -1,7 +1,7 @@
 @import url("../../fonts/fonts.css");
 footer {
   background-color: white;
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .footer {
@@ -29,7 +29,7 @@ footer {
 }
 
 .footer-list_title {
-  color: #1F2041;
+  color: #1f2041;
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
@@ -57,5 +57,47 @@ footer {
   line-height: 24px;
   max-width: 240px;
   color: rgba(31, 32, 65, 0.75);
+}
+
+.footer-line {
+  margin-top: 84px;
+  border-top: 1px solid;
+  border-color: rgba(31, 32, 65, 0.25);
+}
+
+.footer-bottom {
+  font-size: 14px;
+  color: rgba(31, 32, 65, 0.75);
+  margin: 0px 140px;
+  padding: 0px 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-bottom__rules {
+  padding-left: 31px;
+  -webkit-transform: translate(0px, 7px);
+          transform: translate(0px, 7px);
+  padding-top: 29.5px;
+  -webkit-transform: scaleX(1.107);
+          transform: scaleX(1.107);
+}
+
+.footer-bottom__icons {
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-bottom__icon {
+  padding-left: 22px;
 }
 /*# sourceMappingURL=footer.css.map */

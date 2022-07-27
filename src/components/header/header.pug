@@ -1,3 +1,6 @@
+include ..\button\button.pug
+style 
+    include header.css
 link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
 
 header
@@ -20,5 +23,5 @@ header
                      i.material-icons expand_more 
             ul.control 
                 li.control-button     
-                    button.control-button.control-button_login Войти
-                    button.control-button.control-button_signup Зарегистрироваться 
+                    +button("Войти","empty")
+                    +button("Зарегистрироваться","gradient") 

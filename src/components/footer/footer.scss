@@ -1,51 +1,75 @@
 @import url("../../fonts/fonts.css");
 
-footer{
+footer {
     background-color: white;
-    font-family: "Montserrat", "Arial", sans-serif;
+    font-family: Montserrat, sans-serif;
 }
-.footer{
+.footer {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 15px 140px;
     padding: 0px 55px;
     color: rgba(31, 32, 65, 0.5);
-    
-    &-list{
+
+    &-list {
         transform: scaleX(1.153);
         font-size: 14px;
-        &_item{
+        &_item {
             margin-bottom: 24px;
-            transform: translate(0,7px);
-    
-        }        
-        &_title{
-            color:#1F2041;
+            transform: translate(0, 7px);
+        }
+        &_title {
+            color: #1f2041;
             font-weight: bold;
             font-size: 12px;
             text-transform: uppercase;
         }
-        &_link{
-      
+        &_link {
             text-decoration: none;
             color: #1f204180;
-            
         }
-        &_logo{
+        &_logo {
             margin-bottom: 15px;
-            transform:scaleX(0.859);
-
+            transform: scaleX(0.859);
         }
-        &_underlogo{
+        &_underlogo {
+
             line-height: 24px;
             padding-left: 7px;
             max-width: 240px;
-            color:rgba(31, 32, 65, 0.75)
+            color: rgba(31, 32, 65, 0.75);
         }
-        &_sub{
+        &_sub {
             line-height: 24px;
             max-width: 240px;
-            color:rgba(31, 32, 65, 0.75)
+            color: rgba(31, 32, 65, 0.75);
+        }
+    }
+    &-line {
+        margin-top: 84px;
+        border-top: 1px solid;
+        border-color: rgba(31, 32, 65, 0.25);
+    }
+    &-bottom {
+        font-size: 14px;
+        color: rgba(31, 32, 65, 0.75);
+        margin: 0px 140px;
+        padding: 0px 28px;
+        display: flex;
+        justify-content: space-between;
+        &__rules {
+            padding-left: 31px;
+            transform: translate(0px, 7px);
+            padding-top: 29.5px;
+            transform: scaleX(1.107);
+        }
+        &__icons {
+            padding-top: 25px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__icon {
+            padding-left: 22px;
         }
     }
 }
