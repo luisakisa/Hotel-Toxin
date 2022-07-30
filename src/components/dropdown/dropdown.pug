@@ -1,0 +1,13 @@
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js") 
+script(src="dropdown.js")
+link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
+include ../field/field 
+style
+    include dropdown.css
+div.dropdown
+    +field('Сколько гостей')
+            i.material-icons expand_more 
+            div.dropdown-content
+            a(href="#") спальни
+            a(href="#") кровати
+            a(href="#") ванные комнаты
