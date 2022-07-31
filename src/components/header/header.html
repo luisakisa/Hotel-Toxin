@@ -11,6 +11,10 @@
   cursor: pointer;
 }
 
+.control-button__svg {
+  fill: white;
+}
+
 .control-button_login {
   color: #bc9cff;
   padding-top: 9px;
@@ -36,6 +40,21 @@
 
 .control-button_login:hover::before {
   opacity: 0.5;
+}
+
+.control-button_arrow {
+  position: relative;
+  right: 17px;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 290px;
+  margin-top: 30px;
+  height: 43px;
 }
 
 .control-button_signup {
@@ -65,8 +84,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 15px 140px;
-  padding: 0px 45px;
+  margin: 0px 140px;
+  padding: 12.5px 45px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

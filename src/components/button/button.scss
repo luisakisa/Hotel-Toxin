@@ -9,6 +9,9 @@
     white-space: nowrap;
     position: relative;
     cursor: pointer;
+    &__svg{
+    fill: white;
+    }
     &_login {
         color: #bc9cff;
         padding-top: 9px;
@@ -32,6 +35,16 @@
         &:hover::before{
             opacity: 0.5;
         }
+    }
+    &_arrow{
+        position: relative;
+        right:17px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 290px;
+         margin-top: 30px;
+        height: 43px;
     }
 
     

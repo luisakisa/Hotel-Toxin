@@ -11,8 +11,7 @@
   display: -ms-flexbox;
   display: flex;
   height: 41px;
-  max-width: 212px;
-  width: 100%;
+  max-width: 277px;
   border-radius: 4px;
   border: 1px solid #1f214140;
 }
@@ -41,8 +40,40 @@
   border-width: 1px;
 }
 
+.input-field__title {
+  padding-top: 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 .input-field_email {
   border: none;
+}
+
+.input-field__date {
+  position: relative;
+  bottom: 2px;
+  right: 4.5px;
+  height: 41px;
+  width: 131px;
+  display: block;
+  background: url(icons/expand-more_0,5.svg) no-repeat 90% 50%;
+  text-transform: uppercase;
+  color: rgba(31, 33, 65, 0.75);
+  -webkit-transform: scaleX(0.93);
+          transform: scaleX(0.93);
+}
+
+.input-field_expand-more {
+  padding-right: 15px;
+  border: none;
+  cursor: pointer;
+  background: url(icons/expand-more.svg) no-repeat 77% 50%;
+  opacity: 0.5;
+}
+
+.input-field_expand-more:focus {
+  opacity: 0.75;
 }
 
 .input-field_arrow {
@@ -50,6 +81,7 @@
   border: none;
   cursor: pointer;
   background: url(icons/arrow-forward.svg) no-repeat 100% 50%;
+  opacity: 0.5;
 }
 
 .input-field_guests {
@@ -63,6 +95,17 @@
   border-width: 1px;
   border-color: rgba(31, 33, 65, 0.5);
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  background: transparent;
+}
 /*# sourceMappingURL=field.css.map */
 </style>
 <style>/* The container <div> - needed to position the dropdown content */
@@ -70,44 +113,5 @@
   position: relative;
   display: inline-block;
 }
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
 /*# sourceMappingURL=dropdown.css.map */
 </style>
-<div class="dropdown">
-  <div class="input-wrapper">
-    <input class="input-field input-field_guests" type="text" value="Сколько гостей" disabled="disabled"/>
-  </div>
-</div>

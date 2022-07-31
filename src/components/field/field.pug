@@ -1,11 +1,17 @@
 style
     include field.css
-mixin field(value, type = 'text')
+mixin field(value, type = 'text',text)
     case value 
         when "Email"
             .input-wrapper
                 input(type='email', value=value).input-field.input-field_email
                 input(type="submit",value='').input-field_arrow
         when "Сколько гостей"
+            h1.input-field__title= "гости"
             .input-wrapper
-             input(type=type, value=value,disabled).input-field.input-field_guests
+              input(type=type, value=value,disabled).input-field.input-field_guests
+              input(type="submit",value='').input-field_expand-more
+    case type
+        when "date"
+            h1.input-field__title=text
+                input(type=type, value=value).input-field.input-field__date

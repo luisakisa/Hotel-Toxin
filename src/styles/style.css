@@ -47,4 +47,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.body {
+  position: relative;
+  top: -128px;
+  z-index: -99;
+  background-image: url(images/landing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 958px;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  height: 69px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(31, 32, 65, 0.05);
+          box-shadow: 0px 10px 20px 0px rgba(31, 32, 65, 0.05);
+}
 /*# sourceMappingURL=style.css.map */

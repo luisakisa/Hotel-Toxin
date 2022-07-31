@@ -1,0 +1,11 @@
+style
+    include find-room.css
+include ../field/field
+.find-room
+    h1.find-room__title Найдём номера под ваши пожелания 
+      .find-room__group 
+        .find-room__container 
+            +field('','date', 'прибытие')
+            +field('','date', 'выезд')
+        +field('Сколько гостей')
+        +button("подобрать номер","arrow")

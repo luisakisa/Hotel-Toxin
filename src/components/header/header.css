@@ -8,8 +8,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 15px 140px;
-  padding: 0px 45px;
+  margin: 0px 140px;
+  padding: 12.5px 45px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

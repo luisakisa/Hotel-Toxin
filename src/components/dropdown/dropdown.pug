@@ -4,10 +4,11 @@ link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Ic
 include ../field/field 
 style
     include dropdown.css
-div.dropdown
-    +field('Сколько гостей')
-            i.material-icons expand_more 
-            div.dropdown-content
-            a(href="#") спальни
-            a(href="#") кровати
-            a(href="#") ванные комнаты
+mixin dropdown
+    div.dropdown
+        +field('Сколько гостей')
+                i.material-icons expand_more 
+                div.dropdown-content
+                a(href="#") спальни
+                a(href="#") кровати
+                a(href="#") ванные комнаты
