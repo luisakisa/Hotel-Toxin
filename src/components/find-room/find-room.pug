@@ -1,11 +1,14 @@
+script(src="components/find-room/find-room.js") 
 style
     include find-room.css
 include ../field/field
+include ../button/button
+include ../dropdown/dropdown
 .find-room
     h1.find-room__title Найдём номера под ваши пожелания 
       .find-room__group 
         .find-room__container 
             +field('','date', 'прибытие')
             +field('','date', 'выезд')
-        +field('Сколько гостей')
+        +dropdown()
         +button("подобрать номер","arrow")

@@ -14,4 +14,4 @@ mixin field(value, type = 'text',text)
     case type
         when "date"
             h1.input-field__title=text
-                input(type=type, value=value).input-field.input-field__date
+                input(type=type, value=value, id="dateTo").input-field.input-field__date

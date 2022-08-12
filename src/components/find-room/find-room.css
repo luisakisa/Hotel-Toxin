@@ -1,7 +1,7 @@
 .find-room {
-  position: relative;
-  top: 199px;
-  left: 186px;
+  position: absolute;
+  top: 70px;
+  left: 185px;
   -webkit-box-shadow: 0px 0px 25px 0px #00000033;
           box-shadow: 0px 0px 25px 0px #00000033;
   background-color: white;

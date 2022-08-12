@@ -1,5 +1,6 @@
 @import url("../../fonts/fonts.css");
 .header {
+  z-index: 99;
   background-color: white;
   font-family: "Montserrat", sans-serif;
   display: -webkit-box;

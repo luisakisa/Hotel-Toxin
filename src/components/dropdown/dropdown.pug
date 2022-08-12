@@ -7,8 +7,9 @@ style
 mixin dropdown
     div.dropdown
         +field('Сколько гостей')
-                i.material-icons expand_more 
-                div.dropdown-content
-                a(href="#") спальни
-                a(href="#") кровати
-                a(href="#") ванные комнаты
+        div.dropdown-content
+            span спальни
+            button.dropdown-content__btn-minus
+            button.dropdown-content__btn-plus
+            span  кровати
+            span ванные комнаты
